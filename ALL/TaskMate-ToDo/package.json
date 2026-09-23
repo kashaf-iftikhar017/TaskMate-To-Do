@@ -1,0 +1,1 @@
+{"name":"taskmate-todo","version":"1.0.0","description":"Simple student to-do list web application","scripts":{"test":"node test.js"}}
