@@ -9,3 +9,4 @@ Open `index.html` in a browser. For the automated check, install Node.js and run
 
 ## DevOps flow
 Develop -> Test locally -> Commit -> Push -> GitHub Actions CI -> Fix errors if needed -> Deploy with GitHub Pages -> Verify live app.
+Created for Software Engineering Assignment 01.
