@@ -1,1 +1,18 @@
 # TaskMate - To-Do List Application
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TaskMate - To-Do List</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="app"><section class="card">
+<p class="eyebrow">STUDENT PRODUCTIVITY</p><h1>TaskMate</h1>
+<p class="subtitle">Keep your daily tasks organized in one simple place.</p>
+<form id="taskForm" class="task-form"><input id="taskInput" type="text" placeholder="Enter a task..." maxlength="100" required><button type="submit">Add Task</button></form>
+<div class="toolbar"><div class="filters"><button class="filter active" data-filter="all" type="button">All</button><button class="filter" data-filter="active" type="button">Active</button><button class="filter" data-filter="completed" type="button">Completed</button></div><button id="clearCompleted" class="text-button" type="button">Clear completed</button></div>
+<ul id="taskList" class="task-list"></ul>
+<footer><span id="taskCount">0 tasks remaining</span><button id="clearAll" class="text-button danger" type="button">Clear all</button></footer>
+</section></main><script src="script.js"></script>
+</body></html>
